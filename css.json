@@ -1,0 +1,65 @@
+{
+  // Place your snippets for css here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+  "CSS Framework": {
+    "prefix": "css_FW",
+    "body": [
+      "*{",
+      "\tmargin: 0px 0px;",
+      "\tpadding: 0px 0px;",
+      "}",
+      ".full_screen{",
+      "\tmin-height:100vh;",
+      "\twidth:100%;",
+      "}",
+      ".flex_center{",
+      "\tdisplay: flex;",
+      "\tjustify-content: center;",
+      "\talign-items: center;",
+      "}",
+      ".text_center{",
+      "\ttext-align: center;",
+      "}",
+      ".element_center{",
+      "\tdisplay: block;",
+      "\tmargin: 0px auto;",
+      "}",
+      ".no_text_decoration{",
+      "\ttext-decoration: none;",
+      "}",
+      ".black_shadow{",
+      "\tbox-shadow: 0px 0px 15px -1px black;",
+      "}",
+      ".border_curve{",
+      "\tborder-radius: 15px;",
+      "}",
+      ".black_border{",
+      "\tborder: 2px black solid;",
+      "}",
+      ".white_neon{",
+      "\tbox-shadow: 0px 0px 19px 2px rgb(255 255 255), 0px 0px 27px 4px rgb(255 255 255), 0px 0px 35px 5px rgb(255 255 255);",
+      "\tcolor: white;",
+      "}",
+      ".red_neon{",
+      "\tbox-shadow: 0px 0px 19px 2px red, 0px 0px 27px 4px red, 0px 0px 35px 5px red;",
+      "\tcolor: red;",
+      "}",
+      ".text_neon{",
+      "\ttext-shadow: 0 0 5px white, 0 0 15px white, 0 0 30px white;",
+      "\tcolor: white;",
+      "}"
+    ],
+    "description": "My own CSS frame work"
+  }
+}
